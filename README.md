@@ -46,3 +46,12 @@ runs (YOLO models)
 outputs
 After downloading and extracting, copy all of these folders directly into:
 C:\SAIT\TennisAI
+
+## 6. Clone the repository onto a new machine
+cd C:\SAIT
+git clone https://github.com/vuquan2211/TennisAI.git
+cd TennisAI
+
+## 7. Run the application
+cd C:\SAIT\TennisAI
+python challenge_call.py
