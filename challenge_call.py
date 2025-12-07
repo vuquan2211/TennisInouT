@@ -27,7 +27,7 @@ from collections import deque
 from pathlib import Path
 
 # ================== PATH CONFIG ==================
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(r"C:\SAIT\TennisAI")
 
 VIDEO_DIR          = ROOT / "input_video"
 DEFAULT_VIDEO      = VIDEO_DIR / "Video3_cut.mp4"
