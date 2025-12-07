@@ -36,7 +36,7 @@ DEFAULT_VIDEO      = VIDEO_DIR / "Video3_cut.mp4"
 CHALLENGE_CLIP_PATH = VIDEO_DIR / "challenge_clip_10s.mp4"
 
 # v12 detect script
-V12_SCRIPT = ROOT / "scripts" / "replay_10s.py"
+V12_SCRIPT = ROOT / "replay_10s.py"
 
 # Calib + minimap (same as in v12)
 CALIB_DIR    = ROOT / "CALIB"
