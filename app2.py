@@ -286,7 +286,7 @@ if __name__ == "__main__":
     app.setOrganizationName("InouT")
     app.setApplicationName("TennisInouT - 4Cam Live (no ffmpeg)")
 
-    LOGO_PATH = r"C:\SAIT\Capstone\Logo\InouTLogo.png"
+    LOGO_PATH = r"C:\SAIT\TennisAI\InouTLogo.png"
     if Path(LOGO_PATH).exists():
         pix_orig = QtGui.QPixmap(LOGO_PATH)
         if not pix_orig.isNull():
