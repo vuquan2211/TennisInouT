@@ -286,7 +286,11 @@ if __name__ == "__main__":
     app.setOrganizationName("InouT")
     app.setApplicationName("TennisInouT - 4Cam Live (no ffmpeg)")
 
-    LOGO_PATH = r"C:\SAIT\TennisInouT\Logo\InouTLogo.png"
+    BASE_DIR = Path(__file__).resolve().parent
+    LOGO_PATH = BASE_DIR / "Logo" / "InouTLogo.png"
+
+    print("LOGO_PATH =", LOGO_PATH, "exists?", LOGO_PATH.exists())
+    
     if Path(LOGO_PATH).exists():
         pix_orig = QtGui.QPixmap(LOGO_PATH)
         if not pix_orig.isNull():
