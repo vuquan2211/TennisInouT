@@ -200,7 +200,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self, urls):
         super().__init__()
         self.setWindowTitle("TennisInouT - 4Cam Live (no ffmpeg) + 10s Challenge")
-        self.setWindowIcon(QtGui.QIcon(r"C:\SAIT\Capstone\Logo\InouTLogo.png"))
+        self.setWindowIcon(QtGui.QIcon(r"C:\SAIT\TennisAI\Logo\InouTLogo.png"))
         self.resize(1280, 780)
 
         cw = QtWidgets.QWidget()
